@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shanu.toolbar.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DETAIL_PAGE"
+        android:id="@+id/tv_detail_page"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        style="@style/Mystyle"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TITLE:"
+        android:gravity="center"
+        android:id="@+id/tv_tittle_dp"
+        android:layout_below="@+id/tv_detail_page"
+        android:layout_marginTop="70dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:gravity="center"
+        android:id="@+id/tv_show_title"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_tittle_dp"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DETAIL:"
+        android:gravity="center"
+        android:id="@+id/tv_detail_dp"
+        android:layout_below="@+id/tv_show_title"
+        android:layout_marginTop="70dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_show_detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_detail_dp"
+        android:gravity="center" />
+
+</RelativeLayout>
